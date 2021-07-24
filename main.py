@@ -38,7 +38,7 @@ class Player(pygame.sprite.Sprite):
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Test game")
+pygame.display.set_caption("Pygame")
 clock = pygame.time.Clock()
 all_sprites = pygame.sprite.Group()
 player1 = Player(100, 400, WHITE)
